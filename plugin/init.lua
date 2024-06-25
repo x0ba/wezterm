@@ -33,8 +33,8 @@ function main.colors()
 	return {
 		foreground = main_palette.text,
 		background = main_palette.base,
-		cursor_bg = main_palette.text,
-		cursor_border = main_palette.text,
+		cursor_bg = main_palette.highlight_high,
+		cursor_border = main_palette.highlight_high,
 		cursor_fg = main_palette.text,
 		selection_bg = "#2a283e",
 		selection_fg = main_palette.text,
